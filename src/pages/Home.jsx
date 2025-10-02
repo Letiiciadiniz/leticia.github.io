@@ -33,7 +33,7 @@ export default function Home() {
             <motion.h2 variants={{ hidden: { opacity: 0, y: 10 }, visible: { opacity: 1, y: 0 } }}>
               Hello, <TypeAnimation
                 sequence={[
-                  'I am Sathish Kumar',
+                  'I am Leticia Diniz',
                   1000,
                   // 'I am a Web Developer',
                   // 1000,
@@ -46,16 +46,16 @@ export default function Home() {
               />
             </motion.h2>
             <motion.h2 variants={{ hidden: { opacity: 0, y: 10 }, visible: { opacity: 1, y: 0 } }}>
-              <span className="font-extrabold">Fullstack</span>{" "}
+              <span className="font-extrabold">Hardware</span>{" "}
               <span
                 className="text-white font-extrabold"
                 style={{ WebkitTextStroke: "1px black" }}
               >
-                Developer
+                Engineer
               </span>
             </motion.h2>
             <motion.h2 variants={{ hidden: { opacity: 0, y: 10 }, visible: { opacity: 1, y: 0 } }}>
-              Based In <span className="font-extrabold">India.</span>
+              Based In <span className="font-extrabold">the US.</span>
             </motion.h2>
           </motion.div>
 
@@ -65,7 +65,7 @@ export default function Home() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.5, duration: 1 }}
           >
-            Passionate about technology, I specialize in Web Development and Web Designing. I’m focused on building innovative solutions and continuously expanding my skills. My goal is to grow as a developer and contribute to impactful projects in the tech industry.
+            Passionate about technology and human-centered design, I specialize in computer engineering with a strong interest in robotics, hardware systems, and assistive technology. I enjoy combining creativity and problem-solving—whether through engineering, design, or research—to build solutions that make a real impact. My goal is to keep growing as an engineer, collaborate on innovative projects, and contribute to advancing accessible and meaningful technology."
           </motion.p>
 
           <motion.div
